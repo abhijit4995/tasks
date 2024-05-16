@@ -1,0 +1,28 @@
+.avs{
+    color:crimson;
+    text-align: center;
+    font-size: larger;
+    font-family: lucida calligraphy;
+}
+.p1{
+    color: brown;
+    font-size: large;
+}
+.pro{
+    text-align: center;
+    border: 2px solid royalblue;
+    width: 140px;
+    height: 220px;
+}
+.pro1{
+    text-align: center;
+    border: 2px solid royalblue;
+    /* width: 140px;
+    height: 220px; */
+}
+.pro2{
+    text-align: center;
+    border: 2px solid royalblue;
+    /* width: 140px;
+    height: 220px; */
+}
