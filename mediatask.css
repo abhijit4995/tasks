@@ -7,22 +7,78 @@
 .p1{
     color: brown;
     font-size: large;
+    text-align: center;
+}
+.product{
+    border: 2px solid blue;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
 }
 .pro{
+    border: 2px solid lightblue;
+    margin: 10px;
+    padding: 10px;
     text-align: center;
-    border: 2px solid royalblue;
-    width: 140px;
-    height: 220px;
 }
 .pro1{
+    border: 2px solid lightblue;
+    margin: 10px;
+    padding: 10px;
     text-align: center;
-    border: 2px solid royalblue;
-    /* width: 140px;
-    height: 220px; */
 }
 .pro2{
+    border: 2px solid lightblue;
+    margin: 10px;
+    padding: 10px;
     text-align: center;
-    border: 2px solid royalblue;
-    /* width: 140px;
-    height: 220px; */
+}
+.pro3{
+    border: 2px solid lightblue;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.pro4{
+    border: 2px solid lightblue;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.pro5{
+    border: 2px solid lightblue;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.pro6{
+    border: 2px solid lightblue;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.pro7{
+    border: 2px solid lightblue;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.button{
+    background-color: green;
+    border-radius: 8px;
+    width: 80px;
+    height: 30px;
+}
+/* mobile */
+@media only screen and (max-width: 600px){
+    .product{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+/* tablet */
+@media only screen and (min-width: 600px){
+    .product{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
 }
