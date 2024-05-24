@@ -10,57 +10,19 @@
     text-align: center;
 }
 .product{
-    border: 2px solid blue;
+    border: 0px solid blue;
     display: grid;
     grid-template-columns: auto auto auto auto;
 }
 .pro{
     border: 2px solid lightblue;
-    margin: 10px;
-    padding: 10px;
+    /* margin: 10px;
+    padding: 10px; */
     text-align: center;
 }
-.pro1{
-    border: 2px solid lightblue;
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-}
-.pro2{
-    border: 2px solid lightblue;
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-}
-.pro3{
-    border: 2px solid lightblue;
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-}
-.pro4{
-    border: 2px solid lightblue;
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-}
-.pro5{
-    border: 2px solid lightblue;
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-}
-.pro6{
-    border: 2px solid lightblue;
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-}
-.pro7{
-    border: 2px solid lightblue;
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
+.pic{
+    width: 200px;
+    height: 200px;
 }
 .button{
     background-color: green;
@@ -80,5 +42,11 @@
     .product{
         display: grid;
         grid-template-columns: auto auto auto;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .product{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
     }
 }
